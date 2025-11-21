@@ -21,7 +21,7 @@ if weekly_hours <= 15:
     print("Your weekly screen time, of {weekly_hours} hours, looks great! Keep it up")
 
 else:
-print(f"Your screen time this week was: {weekly_hours} hours, which exceeds recommended weekly screen time.")
+    print(f"Your screen time this week was: {weekly_hours} hours, which exceeds recommended weekly screen time.")
 
 
 try:
