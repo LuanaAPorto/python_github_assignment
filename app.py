@@ -17,9 +17,11 @@ hours_S = float(hours_S)
 
 weekly_hours = hours_SU + hours_M + hours_T + hours_W + hours_TR + hours_F + hours_S 
 
+if weekly_hours <= 15:
+    print("Your weekly screen time, of {weekly_hours} hours, looks great! Keep it up")
 
-print(f"Your screen time this week was: {weekly_hours} hours, which exceeds recommended weekly screen time")
-
+else:
+print(f"Your screen time this week was: {weekly_hours} hours, which exceeds recommended weekly screen time.")
 
 
 try:
