@@ -7,10 +7,15 @@ hoursTR = input("How many hours did you spend on your phone on Thursday?")
 hoursF = input("How many hours did you spend on your phone on Friday?")
 hoursS = input("How many hours did you spend on your phone on Saturday?")
 
-hours = float(hours)
+hours_SU = float(hours_SU)
+hours_M = float(hours_M)
+hours_T = float(hours_T)
+hours_W = float(hours_W)
+hours_TR = float(hours_TR)
+hours_F = float(hours_F)
+hours_S = float(hours_S)
 
-
-weekly_hours = hours * 7
+weekly_hours = hours_SU + hours_M + hours_T + hours_W + hours_TR + hours_F + hours_S 
 
 
 print(f"Your screen time this week was: {weekly_hours} hours, which exceeds recommended weekly screen time")
