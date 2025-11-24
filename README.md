@@ -2,6 +2,9 @@ Weekly screen time calculator and evaluator
 
 This program asks users how much time they spend on screens everyone day and with these inputs it calculates their weekly screen time. It also gives feedback that can be either good or bad, depending on the amount of hours, and if someone enters an invalid input, such as words, the program also returns a message that asks for a valid number.
 
+How to Run:
+Open your terminal and run the following command:
+python app.py
 Example output based on input and weekly screen time calculated:
 
 inputs:
