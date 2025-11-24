@@ -4,13 +4,13 @@ try:  #to make sure all inputs are valid numbers
 
 #Asks users for their screen time each day of the week individualy
 
-    hours_SU = input("How many hours did you spend on your phone on Sunday?") 
-    hours_M = input("How many hours did you spend on your phone on Monday?")
-    hours_T = input("How many hours did you spend on your phone on Tuesday?")
-    hours_W = input("How many hours did you spend on your phone on Wednesday?")
-    hours_TR = input("How many hours did you spend on your phone on Thursday?")
-    hours_F = input("How many hours did you spend on your phone on Friday?")
-    hours_S = input("How many hours did you spend on your phone on Saturday?")
+    hours_SU = input("How many hours did you spend on your phone on Sunday? ") 
+    hours_M = input("How many hours did you spend on your phone on Monday? ")
+    hours_T = input("How many hours did you spend on your phone on Tuesday? ")
+    hours_W = input("How many hours did you spend on your phone on Wednesday? ")
+    hours_TR = input("How many hours did you spend on your phone on Thursday? ")
+    hours_F = input("How many hours did you spend on your phone on Friday? ")
+    hours_S = input("How many hours did you spend on your phone on Saturday? ")
 
 #Converting inputs to float
 
